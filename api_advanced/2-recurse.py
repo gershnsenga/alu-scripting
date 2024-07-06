@@ -55,11 +55,3 @@ def recurse(subreddit, hot_list=None, after=None):
 
     except Exception:
         return None
-
-
-if __name__ == '__main__':
-    result = recurse('python')
-    if result is not None:
-        print(len(result))
-    else:
-        print("None")
