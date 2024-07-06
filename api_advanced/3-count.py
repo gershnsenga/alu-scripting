@@ -78,7 +78,3 @@ def print_results(word_count):
     for word, count in sorted_counts:
         if count > 0:
             print(f"{word.lower()}: {count}")
-
-
-if __name__ == '__main__':
-    count_words('programming', ['python', 'java', 'JavaScript'])
