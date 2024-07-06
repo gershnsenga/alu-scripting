@@ -19,7 +19,7 @@ def top_ten(subreddit):
     """
     url = f"https://www.reddit.com/r/{subreddit}/hot.json"
     headers = {
-        'User-Agent': 'MyBot/1.0 (by /u/YourUsername)'
+        'User-Agent': 'Mozilla/5.0'
     }
     params = {
         'limit': 9
