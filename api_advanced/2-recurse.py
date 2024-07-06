@@ -24,7 +24,7 @@ def recurse(subreddit, hot_list=None, after=None):
 
     url = f"https://www.reddit.com/r/{subreddit}/hot.json"
     headers = {
-        'User-Agent': 'MyBot/1.0 (by /u/gershom)'
+        'User-Agent': 'Mozilla/5.0'
     }
     params = {
         'limit': 100,
