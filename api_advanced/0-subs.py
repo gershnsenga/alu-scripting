@@ -30,8 +30,3 @@ def number_of_subscribers(subreddit):
         return 0
     except Exception:
         return 0
-
-
-if __name__ == "__main__":
-    subscribers = number_of_subscribers('python')
-    print(f"Number of subscribers: {subscribers}")
